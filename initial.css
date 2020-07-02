@@ -1,0 +1,105 @@
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+nav li {
+  display: inline-block; }
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none; }
+
+.container {
+  background-color: #00ffc8; }
+  .container body {
+    font: 100% Helvetica, sans-serif;
+    color: #333; }
+  .container article[role="main"] {
+    float: left;
+    width: 62.5%; }
+  .container aside[role="complementary"] {
+    float: right;
+    width: 31.25%; }
+  .container #s-uno {
+    margin-left: 10px; }
+    .container #s-uno button {
+      text-shadow: 1px 1px purple; }
+  .container #s-dos div {
+    background-color: #00ffc8;
+    padding: 10px; }
+    .container #s-dos div p.parrafo {
+      font-size: 11px;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
+
+* {
+  font-size: 30px; }
+
+div a {
+  background-color: blue; }
+
+.box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333; }
+
+.box {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+  color: beige; }
+
+.box1 {
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  color: beige; }
+
+.box2 {
+  -webkit-transform: rotate(130deg);
+  -ms-transform: rotate(130deg);
+  transform: rotate(130deg);
+  color: beige; }
+
+.box3 {
+  -webkit-transform: rotate(200deg);
+  -ms-transform: rotate(200deg);
+  transform: rotate(200deg);
+  color: beige; }
+
+.box4 {
+  -webkit-transform: rotate(280deg);
+  -ms-transform: rotate(280deg);
+  transform: rotate(280deg);
+  color: beige; }
+
+.box,
+.box1,
+.box2,
+.box3,
+.box4 {
+  box-shadow: 1px 1px slateblue;
+  padding: 0 2 px;
+  margin-bottom: 10px;
+  border: 1px solid green;
+  border-radius: 20px; }
+
+.cuidado:hover, .error--fatal:hover {
+  background-color: #fee; }
+
+.error--fatal {
+  border-width: 3px; }
+
+.caja, .caja-borde, .caja-fondo, .caja-espaciadoextra, .caja-combinada {
+  padding: 10px;
+  font-size: 1.2em; }
+
+.caja-borde, .caja-combinada {
+  border: 1px solid black; }
+
+.caja-fondo, .caja-combinada {
+  background-color: #fae100; }
+
+.caja-espaciadoextra, .caja-combinada {
+  padding: 20px; }
+
+/*# sourceMappingURL=initial.css.map */
